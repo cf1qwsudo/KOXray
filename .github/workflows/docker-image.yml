@@ -13,3 +13,4 @@ jobs:
           name: Docker Hub cf1qwsudo/test
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
+          context: .
